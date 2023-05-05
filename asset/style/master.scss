@@ -1,0 +1,211 @@
+body {
+    overflow: hidden;
+}
+main {
+    height: 100vh;
+    >div {
+        height: 95%;
+        >div {
+            background-image: url(../img/back.jpg);
+            background-size: cover;
+            >nav {
+                height: 15%;
+                >div:nth-of-type(1) {
+                    cursor: pointer;
+                    >button {
+                        width: 150px;
+                        height: 60px;
+                        background-color: rgb(241, 138, 155);
+                        >a>img {
+                            width: 100px;
+                            object-fit: cover;
+                        }
+                        >a>b>i {
+                            font-size: 40px;
+                            color: white;
+                        }
+                        &:hover {
+                            background-color: rgb(241, 138, 155);
+                        }
+                    }
+                    >div {
+                        background-color: rgb(241, 138, 155);
+                        max-width: 55%;
+                        >div:nth-of-type(2) {
+                            ul>li {
+                                height: 50px;
+                                list-style-type: none;
+                                >a {
+                                    text-decoration: none;
+                                    text-transform: uppercase;
+                                    color: black;
+                                    transition: 1s;
+                                    &:hover {
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover>button>a:nth-of-type(2)>b>i {
+                        color: black;
+                    }
+                }
+                >div:nth-of-type(2) {
+                    cursor: pointer;
+                    >div:nth-of-type(1) {
+                        width: 100px;
+                        height: 60px;
+                        background-color: rgb(241, 138, 155);
+                        border-radius: 8%;
+                        >a>i {
+                            font-size: 30px;
+                            color: white;
+                            &:hover {
+                                color: black;
+                            }
+                        }
+                    }
+                    &:hover>div:nth-of-type(1)>a>i {
+                        color: black;
+                    }
+                    >div:nth-of-type(2) {
+                        width: 300px;
+                        height: 60px;
+                        background-color: rgb(241, 138, 155);
+                        &:hover {
+                            background-color: black;
+                        }
+                        >a {
+                            width: 100%;
+                            height: 100%;
+                            color: black;
+                            text-decoration: none;
+                            text-transform: capitalize;
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            >section {
+                width: 100%;
+                height: 85%;
+                >div {
+                    height: 100%;
+                    >div:nth-of-type(1) {
+                        height: inherit;
+                        >.box {
+                            height: 86%;
+                            width: 90%;
+                            background-color: rgb(241, 138, 155);
+                            >div {
+                                width: 100%;
+                                height: 100%;
+                                >img {
+                                    height: 15%;
+                                }
+                                >ul>li {
+                                    height: 50px;
+                                    list-style-type: none;
+                                    >a {
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        color: black;
+                                        transition: .5s;
+                                        &:hover {
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    >div:nth-of-type(2) {
+                        >section{
+                            background-color: rgba(59, 59, 59, 0.851);
+                            @media screen and (max-width:768px) {
+                                height: 70%;
+                            }
+                            @media screen and (min-width:769px) {
+                                height: 50%;
+                            }
+                            >div{
+                                height: fit-content;
+                                &:nth-of-type(1){
+                                    h6{
+                                        color: white;
+                                        text-transform: uppercase;
+                                        >strong{
+                                            color: rgb(241, 138, 155);
+                                            font-size: 3.7vmax;
+                                        }
+                                    }
+                                    >h5{
+                                        color: white;
+                                        text-transform: capitalize;
+                                    }
+                                }
+                                &:nth-of-type(2){
+                                    >a{
+                                        color: white;
+                                        text-decoration: none;
+                                        >i{
+                                            color: white;
+                                            font-size: 20px;
+                                        }
+                                        &:hover{
+                                            color: rgb(241, 138, 155);
+                                            >i{
+                                                color: rgb(241, 138, 155);
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-of-type(3)>div{
+                                    >div{
+                                        >a{
+                                            text-decoration: none;
+                                            >i{
+                                                color: white;
+                                                font-size: 4vmax;
+                                                @media screen and (max-width:768px) {
+                                                    font-size: 4vmax;
+                                                }
+                                                @media screen and (min-width:769px) {
+                                                    font-size: 2.5vmax;
+                                                    
+                                                }
+                                                &:hover{
+                                                    color: rgb(241, 138, 155);
+                                                }
+                                            }
+                                        }
+                                    }
+                                    >div{
+                                        >a{
+                                            >button{
+                                                background-color: white;
+                                                &:hover{
+                                                    background-color: rgb(241, 138, 155);
+                                                    >i{
+                                                        color: white;
+                                                    }
+                                                }
+                                                >i{
+                                                    color: rgb(241, 138, 155);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
