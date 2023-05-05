@@ -2,15 +2,17 @@
 
 🥰**My Personal Site**
 
-![1](https://user-images.githubusercontent.com/126666369/224512038-8cbfc5d4-b3db-49de-bdc9-27504bbae833.jpg)
+![1](https://user-images.githubusercontent.com/126666369/236472604-946d53c1-1110-4a5b-a6fd-e8322a8ce22c.jpg)
 
-![2](https://user-images.githubusercontent.com/126666369/224512075-5fa81558-8182-49ab-9e7f-38b6c754632b.jpg)
+![2](https://user-images.githubusercontent.com/126666369/236472639-a6fcc3f8-4ba8-4a73-809a-8d330cd5de83.jpg)
 
-![3](https://user-images.githubusercontent.com/126666369/224512089-2b73e62b-edd6-4600-a702-63fee65d7a9e.jpg)
+![3](https://user-images.githubusercontent.com/126666369/236472690-daebad6f-d16e-41ea-bf41-df672f784031.jpg)
 
-![4](https://user-images.githubusercontent.com/126666369/224512091-0792ef2b-3b10-493c-ba3d-9e96eea55734.jpg)
+![4](https://user-images.githubusercontent.com/126666369/236472718-c6368ad9-fce8-4fa1-b2a2-6a534f0d18f0.jpg)
 
-![5](https://user-images.githubusercontent.com/126666369/224512093-9c584985-3bf9-4f5c-9c47-631a6ed09eef.jpg)
+![5](https://user-images.githubusercontent.com/126666369/236472748-c5df4306-18d4-4c09-ba61-184fd92781a7.jpg)
+
+![6](https://user-images.githubusercontent.com/126666369/236472775-47665123-6098-44ae-a9cb-757633eb9238.jpg)
 
 - [Demo Project](https://melika-haqshenas-web.github.io/My-WebSite/)
 
@@ -18,7 +20,7 @@
 
 📅- Created - 2023-05-05
 
-⌨- Technologies Used - Html , css , scss , Bootstrap
+⌨- Technologies Used - Html , css , scss , Bootstrap , Responsive
 
 - Hooks Used : useState 
 
